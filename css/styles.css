@@ -1,0 +1,105 @@
+/* Typography */
+/* Only one font is being used to remain consistent across my website. */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: #ed004be3;
+    text-transform: uppercase;
+}
+
+
+/* Heroes in the Carousel */
+#resumeSpotlight{
+    background-image: url(../img/resume.svg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#projectsSpotlight{
+    background-image: url(../img/projects.svg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#contactSpotlight{
+    background-image: url(../img/contact.svg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* Ajusting height to fit to screen using viewport because these are spotlight images of the home page */
+.carousel-item{
+    height: calc(100vh - 72px) ;
+}
+
+
+/* Resume Page styling */
+#resume #hero{
+    background-image: url(../img/resume.svg); 
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#resume .bg-info{
+    background-color: #5544d2!important;
+}
+
+#resume #languages{
+    background-color: #1f1f30!important;
+    border-radius: 25px;
+}
+
+
+/* Contact Page styling */
+#contact #hero{
+    background-image: url(../img/contact.svg); 
+    background-size: cover;
+    background-position: center bottom;
+    min-height: calc(75vh - 72px);
+}
+
+
+/* Projects Page styling*/
+#projects #hero{
+    background-image: url(../img/projects.svg); 
+    background-size: cover;
+    background-position: center bottom;
+    min-height: calc(75vh - 72px);
+}
+
+
+/* Additional Adjustment to defaut styles to fit the theme */
+/* Dark background */
+.bg-dark {
+    background-color: #000000!important;
+    color: white;
+}
+
+.bg-secondary {
+    background-color: #1f1f30!important;
+    color: white;
+}
+
+/* Card Styling- eliminating default border and changing border color on hover */
+.card{
+    border-radius: 0rem!important;
+}
+.card:hover {
+    border-color: #ED004B!important;
+}
+
+/* Changing text-muted class to fit the AA Acessability Standards */
+.text-muted{
+    color: #ffffff7b!important;
+}
+
+.border-primary{
+    border-color: #ED004B!important;
+}
+
+.btn-secondary{
+    border: 1px solid #ED004B!important;
+    background-color: #000000;
+}
